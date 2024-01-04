@@ -1,21 +1,22 @@
-import React from 'react';
+import React from "react";
 
 type InputProps = {
-    value: string
-    handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void
-}
+  value: string;
+  handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+};
 
 const Input = (props: InputProps) => {
-    const inputHandleChange = (event: React.ChangeEvent<HTMLInputElement>) => {console.log(event)}
+  const inputHandleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(event);
+  };
   return (
     <div>
-      <input type='text' value = {props.value} onChange={props.handleChange}/>
+      <input type="text" value={props.value} onChange={props.handleChange} />
     </div>
   );
-}
+};
 
 export default Input;
-
 
 // Type the onChange event on an input element...
 

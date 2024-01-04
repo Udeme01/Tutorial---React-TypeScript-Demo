@@ -9,6 +9,7 @@ import Heading from './components/Heading';
 import Oscar from './components/Oscar';
 import Button from './components/Button';
 import Input from './components/Input';
+import MyStyles from './components/MyStyles';
 
 function App() {
   // created a new person object with first and last as properties.
@@ -43,11 +44,13 @@ function App() {
       {/* <Oscar>
         <Heading>Oscar goes to Leonardo Dicaprio!</Heading>
       </Oscar> */}
-      <Button handleClick={(event, id) => {
+      {/* <Button handleClick={(event, id) => {
         console.log('button clicked', event, id)
-      }} />
+      }} /> */}
 
-      <Input value = '' handleChange={event => console.log(event)}/>
+      {/* <Input value = '' handleChange={event => console.log(event)}/> */}
+
+      <MyStyles styles={{border: '2px solid red', padding: '1rem', width: '80%', margin: '1rem auto', borderRadius: '12px', cursor: 'pointer'}} />
     </div>
   );
 }
