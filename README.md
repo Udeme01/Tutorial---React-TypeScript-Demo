@@ -1,6 +1,31 @@
+# React TypeScript Demo
+
+## Table of Contents
+1. [Getting Started with Create React App](#Getting-Started)
+2. [Prerequisites](#prerequisites)
+3. [Available Scripts](#available-script)
+4. [Learn More](#learn-more)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Follow these steps to clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-typescript-demo.git
+cd react-typescript-demo
+npm install
+```
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js and npm
+- Visual Studio Code or your preferred code editor
+
 
 ## Available Scripts
 
