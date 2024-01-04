@@ -7,6 +7,8 @@ import PersonList from './components/PersonList';
 import Status from './components/Status';
 import Heading from './components/Heading';
 import Oscar from './components/Oscar';
+import Button from './components/Button';
+import Input from './components/Input';
 
 function App() {
   // created a new person object with first and last as properties.
@@ -33,14 +35,19 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name = 'Udeme' isLoggedIn = {true} />
-      <Person hisname = {personName} />
-      <PersonList names = {namesList} />
-      <Status status='success' />
-      <Heading>Heading PlaceHolder Text</Heading>
-      <Oscar>
+      {/* <Greet name = 'Udeme' isLoggedIn = {true} /> */}
+      {/* <Person hisname = {personName} /> */}
+      {/* <PersonList names = {namesList} /> */}
+      {/* <Status status='success' /> */}
+      {/* <Heading>Heading PlaceHolder Text</Heading> */}
+      {/* <Oscar>
         <Heading>Oscar goes to Leonardo Dicaprio!</Heading>
-      </Oscar>
+      </Oscar> */}
+      <Button handleClick={(event, id) => {
+        console.log('button clicked', event, id)
+      }} />
+
+      <Input value = '' handleChange={event => console.log(event)}/>
     </div>
   );
 }
