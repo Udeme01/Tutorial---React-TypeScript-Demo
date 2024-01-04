@@ -24,7 +24,7 @@ function App() {
     },
     {
       first: 'Gerald',
-      last: 'Jack'
+      last: 'Jacky'
     }
   ] 
 
