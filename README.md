@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Getting Started with Create React App](#Getting-Started)
 2. [Prerequisites](#prerequisites)
-3. [Available Scripts](#available-script)
+3. [Available Scripts](#Available-Scripts)
 4. [Learn More](#learn-more)
 
 
