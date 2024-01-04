@@ -14,8 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Follow these steps to clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-typescript-demo.git
-cd react-typescript-demo
+git clone https://github.com/your-username/Tutorial---React-TypeScript-Demo.git
+cd Tutorial---React-TypeScript-Demo
 npm install
 ```
 
