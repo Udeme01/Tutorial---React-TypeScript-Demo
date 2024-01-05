@@ -10,6 +10,8 @@ import Oscar from './components/Oscar';
 import Button from './components/Button';
 import Input from './components/Input';
 import MyStyles from './components/MyStyles';
+import LoggedIn from './components/state/LoggedIn';
+import MyUser from './components/state/MyUser';
 
 function App() {
   // created a new person object with first and last as properties.
@@ -50,7 +52,9 @@ function App() {
 
       {/* <Input value = '' handleChange={event => console.log(event)}/> */}
 
-      <MyStyles styles={{border: '2px solid red', padding: '1rem', width: '80%', margin: '1rem auto', borderRadius: '12px', cursor: 'pointer'}} />
+      {/* <MyStyles styles={{border: '2px solid red', padding: '1rem', width: '80%', margin: '1rem auto', borderRadius: '12px', cursor: 'pointer'}} /> */}
+      <LoggedIn />
+      <MyUser />
     </div>
   );
 }
