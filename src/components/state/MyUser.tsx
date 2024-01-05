@@ -34,6 +34,8 @@ const MyUser = () => {
 
 export default MyUser;
 
-// Typing 'useState Hook' whose value can be a different type compared to the initial value
+// HOW TO TYPE THE USE STATE HOOK WHEN THE INITIAL VALUE TYPE IS DIFFERENT TO THE FUTURE VALUE TYPE.
+
+// Typing 'useState Hook' whose value can be a different type compared to the initial value - I specified that the state type can be "null" or "AuthUser"
 
 // The initial value specified in the useState() is "null", future value is the "AuthUser".
