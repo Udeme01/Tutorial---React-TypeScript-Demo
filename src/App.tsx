@@ -12,6 +12,7 @@ import Input from './components/Input';
 import MyStyles from './components/MyStyles';
 import LoggedIn from './components/state/LoggedIn';
 import MyUser from './components/state/MyUser';
+import Counter from './components/reducerState/Counter';
 
 function App() {
   // created a new person object with first and last as properties.
@@ -55,6 +56,7 @@ function App() {
       {/* <MyStyles styles={{border: '2px solid red', padding: '1rem', width: '80%', margin: '1rem auto', borderRadius: '12px', cursor: 'pointer'}} /> */}
       <LoggedIn />
       <MyUser />
+      <Counter />
     </div>
   );
 }
