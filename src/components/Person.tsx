@@ -1,11 +1,15 @@
 import React from 'react';
 
-// define the type here for the props called name which is an object
+// define the type here for the props called Name which is an object and exported it to re-use it in "PersonList" component.
+
+export type Name = {
+  first: string
+  last: string
+}
+
+// reused the Name type for the props.
 type PersonProps = {
-    hisname: {
-        first: string
-        last: string
-    }
+    hisname: Name
 }
 
 const Person = (props: PersonProps) => {

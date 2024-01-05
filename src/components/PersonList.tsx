@@ -1,11 +1,9 @@
 import React from "react";
+import { Name } from "./Person";
 
 // define the type for the props called names that's an array of objects.
 type PersonListProps = {
-  names: {
-    first: string;
-    last: string;
-  }[];
+  names: Name[];
 };
 
 const PersonList = (props: PersonListProps) => {
